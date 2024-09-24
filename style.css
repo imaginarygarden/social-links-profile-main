@@ -1,0 +1,77 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format("truetype");
+}
+
+body {
+    background: hsl(0, 0%, 8%);
+    font-family: "Inter";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: calc(1em + 0.5rem);
+    -webkit-font-smoothing: antialiased;
+}
+
+main {
+    background: hsl(0, 0%, 12%);
+    max-width: clamp(21.5rem, 50vw, 26.5rem);
+    min-height: clamp(40.5rem, 50vw, 42.5rem);
+    padding-top: clamp(1.5rem, 5vw, 2.5rem);
+    text-align: center;
+    border-radius: 0.75rem;
+}
+
+.avatar {
+    margin-bottom: 1.875rem;
+    max-width: 6rem;
+    border-radius: 50%;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.875rem;
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+
+.geo {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 1.75rem;
+    font-size: 0.938rem;
+    font-weight: 600;
+}
+
+.bio {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0.5rem;
+    font-size: 0.938rem;
+    font-weight: 300;
+}
+
+button {
+    background: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    min-width: 80%;
+    padding: 1rem;
+    margin-top: 1.1rem;
+    border: 0;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
