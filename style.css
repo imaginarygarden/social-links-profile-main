@@ -24,7 +24,7 @@ body {
 
 main {
     background: hsl(0, 0%, 12%);
-    max-width: clamp(21.5rem, 50vw, 26.5rem);
+    max-width: clamp(23rem, 50vw, 26.5rem);
     min-height: clamp(40.5rem, 50vw, 42.5rem);
     padding-top: clamp(1.5rem, 5vw, 2.5rem);
     text-align: center;
